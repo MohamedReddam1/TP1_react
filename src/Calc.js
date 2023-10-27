@@ -47,7 +47,7 @@ setExp(newval);
             <input onClick={(e)=>tapecar(e)} type="button" value="7" className='num'/>
             <input onClick={(e)=>tapecar(e)} type="button" value="8" className='num'/>
             <input onClick={(e)=>tapecar(e)} type="button" value="9" className='num'/>
-            <input onClick={(e)=>tapecar(e)} type="button" value="x" className='LesCalc'/>
+            <input onClick={(e)=>tapecar(e)} type="button" value="*" className='LesCalc'/>
           </div>
 
           <div>
