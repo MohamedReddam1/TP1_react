@@ -10,12 +10,6 @@ import Calc from './Calc';
 function App() {
   return (
     <div>
-      <Cal1/>
-      <IncAndDec/>
-      <CalWithoutState/>
-      <CalWithState/>
-      <CompToogle/>
-
       <Calc/>
     </div>
     
