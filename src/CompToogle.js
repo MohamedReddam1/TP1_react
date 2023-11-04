@@ -1,17 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function CompToogle() {
 
-    let content = <>
+const[toogle,setToogle]=useState(true)
 
-                    <h1>Titre1</h1>
-                    <h1>titre2</h1>
+const change=()=>{
+    setToogle(!toogle)
+}
 
-                </>
-
+let content = toogle ? <h1>content true</h1> : <h1>content false</h1>
   return (
     <div>
-        
+        {content}
+        <input type="button" onClick={change} value="change" />
     </div>
   )
 }
